@@ -1,39 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="/estilo.css">
+    <title>JUGONES | Tienda Deportiva</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Tienda deportiva JUGONES: camisetas, zapatillas y accesorios para deportistas.">
 </head>
+
 <body>
+
+    <!-- HEADER -->
     <header>
-        
-        <nav>
-            <h2>JUGONES</h2>
-            <div class="BarraNavegacion">
-                <a href="index.html">Inicio</a>
-                <a href="index.html">Nosotros</a>
-                <a href="index.html">Contactanos</a>
-                <a href="index.html">Trabaja con Nosotros</a>
+        <nav class="navegacion">
+            <div class="logo">
+                <img src="imagenes/ChatGPT Image 20 oct 2025, 01_07_01.png" alt="Logo Jugones">
+                <h2>JUGONES</h2>
+            </div>
+
+            <div class="enlaces">
+                <a href="#">Inicio</a>
+                <a href="#">Productos</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Contacto</a>
             </div>
         </nav>
-            
+
+        <section class="hero">
+            <div class="hero-texto">
+                <h1>Equípate como un campeón</h1>
+                <p>Descubre la mejor selección de ropa, calzado y accesorios deportivos para rendir al máximo.</p>
+                <a href="#" class="boton">Comprar ahora</a>
+            </div>
+            <form action="formulario-pagina">
+                <label for="name">Primer nombre</label>
+                <input type="text" id="name" name="name" value="Escribe tu nombre...">
+                <label for="name">Apellidos</label>
+                <input type="text" id="name" name="name" value="Escribe tu apellido...">
+                <input type="submit" value="Enviar"> 
+            </form>
+
+            <!--<div class="hero-imagen">
+                <img src="imagenes/ChatGPT Image 20 oct 2025, 01_19_02.png" alt="Imagen principal deportiva">
+            </div> -->
+        </section>
     </header>
 
+    <!-- MAIN -->
     <main>
 
+        <section class="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="galeria">
+                <div class="card">
+                    <img src="imagenes/intermilan.jpg" alt="Camiseta de fútbol">
+                    <h3>Camisetas</h3>
+                    <p>Modelos oficiales y de entrenamiento para todos los equipos.</p>
+                </div>
+                <div class="card">
+                    <img src="imagenes/imagentamaño.jpg" alt="zapatillas">
+                    <h3>Raquetas</h3>
+                    <p>Diseñadas para máxima comodidad y dureza.</p>
+                </div>
+                <div class="card">
+                    <img src="imagenes/raquetaMarron.jpg" alt="Raquetas de padel">
+                    <h3>Accesorios</h3>
+                    <p>Todo lo que necesitas para tu rutina de entrenamiento.</p>
+                </div>
+            </div>
+        </section>
 
-
-
-
-
-
-
+        <section class="oferta">
+            <h2> Oferta especial</h2>
+            <p>Hasta un <strong>40% de descuento</strong> en productos seleccionados.</p>
+            <a href="#" class="boton">Ver ofertas</a>
+        </section>
 
     </main>
 
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 JUGONES | Tu tienda de confianza en ropa y accesorios deportivos</p>
+    </footer>
 
-    
 </body>
+
 </html>

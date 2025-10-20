@@ -1,0 +1,147 @@
+/* === ESTILOS GENERALES === */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* === NAVEGACIÓN === */
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    padding: 15px 40px;
+}
+
+.navegacion .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navegacion img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.enlaces a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.enlaces a:hover {
+    color: #00bfff;
+}
+
+/* === SECCIÓN HERO === */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background: linear-gradient(to right, #00bfff, #0077b6);
+    color: white;
+}
+
+.hero-texto {
+    max-width: 50%;
+}
+
+.hero-texto h1 {
+    font-size: 2.8em;
+    margin-bottom: 15px;
+}
+
+.hero-texto p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+.boton {
+    background-color: white;
+    color: #0077b6;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #e0e0e0;
+}
+
+.formulario-pagina{
+
+    justify-content: first baseline;
+
+
+}
+
+/*.hero-imagen img {
+    width: 300px;
+    border-radius: 15px;
+}*/
+
+/* === PRODUCTOS === */
+.productos {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.productos h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    color: #0077b6;
+}
+
+/* === OFERTA === */
+.oferta {
+    text-align: center;
+    background-color: #0077b6;
+    color: white;
+    padding: 60px 20px;
+}
+
+.oferta .boton {
+    background-color: white;
+    color: #0077b6;
+}
+
+/* === FOOTER === */
+footer {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    font-size: 0.9em;
+}
