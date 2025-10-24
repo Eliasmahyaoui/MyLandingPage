@@ -1,93 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JUGONES | Tienda Deportiva</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Tienda deportiva JUGONES: camisetas, zapatillas y accesorios para deportistas.">
 </head>
-
 <body>
 
-    <!-- HEADER -->
     <header>
-        <nav class="navegacion">
-            <div class="logo">
-                <img src="imagenes/ChatGPT Image 20 oct 2025, 01_07_01.png" alt="Logo Jugones">
-                <h2>JUGONES</h2>
-            </div>
-
-            <div class="enlaces">
-                <a href="#">Inicio</a>
-                <a href="#">Productos</a>
-                <a href="#">Nosotros</a>
-                <a href="#">Contacto</a>
-            </div>
+        <h1>JUGONES</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Contacto</a>
         </nav>
-
-        <section class="hero">
-            <div class="hero-texto">
-                <h1>Equípate como un campeón</h1>
-                <p>Descubre la mejor selección de ropa, calzado y accesorios deportivos para rendir al máximo.</p>
-                <a href="#" class="boton">Comprar ahora</a>
-            </div>
-            <form action="formulario-pagina">
-                <label for="name">Primer nombre</label>
-                <input type="text" id="name" name="name" value="Escribe tu nombre...">
-
-                <label for="name">Apellidos</label>
-                <input type="text" id="name" name="name" value="Escribe tu apellido...">
-
-                <label for="email">Dime tu email</label>
-                <input type="text" id="email" name="email" value="Escribe tu email...">
-
-                <label for="contraseña">Introduce tu contraseña</label>
-                <input type="text" id="contraseña" name="contraseña" value="Introduce la contraseña...">
-
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
     </header>
 
-    <!-- MAIN -->
-    <main>
+    <!-- Nueva sección de bienvenida -->
+    <section class="bienvenida">
+        <h2>Bienvenido a nuestra tienda deportiva</h2>
+        <p>Aquí encontrarás ropa, calzado y accesorios para todos los deportes.</p>
 
-        <section class="productos">
-            <h2>Nuestros Productos</h2>
-            <div class="galeria">
-                <div class="card">
-                    <img src="imagenes/intermilan.jpg" alt="Camiseta de fútbol">
-                    <h3>Camisetas</h3>
-                    <p>Modelos oficiales y de entrenamiento para todos los equipos.</p>
-                </div>
-                <div class="card">
-                    <img src="imagenes/imagentamaño.jpg" alt="zapatillas">
-                    <h3>Raquetas</h3>
-                    <p>Diseñadas para máxima comodidad y dureza.</p>
-                </div>
-                <div class="card">
-                    <img src="imagenes/raquetaMarron.jpg" alt="Raquetas de padel">
-                    <h3>Accesorios</h3>
-                    <p>Todo lo que necesitas para tu rutina de entrenamiento.</p>
-                </div>
-            </div>
-        </section>
+        <form>
+            <label for="Fnombre"> Dime tu nombre</label>
+            <input type="text" name="Tu nombre">
+            <label for="email"> Dime tu email </label>
+            <input type="email" name="Tu email">
+            <input type="submit" value="Suscribirse">
+        </form>
+    </section>
 
-        <section class="oferta">
-            <h2> Oferta especial</h2>
-            <p>Hasta un <strong>40% de descuento</strong> en productos seleccionados.</p>
-            <a href="#" class="boton">Ver ofertas</a>
-        </section>
+    <section class="productos">
+        <h2>Productos</h2>
+        <div class="card">
+            <img src="imagenes/intermilan.jpg" alt="Camisetas">
+            <h3>Camisetas</h3>
+        </div>
+        <div class="card">
+            <img src="imagenes/imagentamaño.jpg" alt="Raquetas">
+            <h3>Raquetas</h3>
+        </div>
+        <div class="card">
+            <img src="imagenes/raquetaMarron.jpg" alt="Accesorios">
+            <h3>Accesorios</h3>
+        </div>
+    </section>
 
-    </main>
+    <section class="oferta">
+        <h2>Oferta especial</h2>
+        <p>Hasta un <strong>40% de descuento</strong> en productos seleccionados.</p>
+        <a href="#" class="boton">Ver ofertas</a>
+    </section>
 
-    <!-- FOOTER -->
     <footer>
-        <p>© 2025 JUGONES | Tu tienda de confianza en ropa y accesorios deportivos</p>
+        <p>© 2025 JUGONES | Tu tienda de confianza</p>
     </footer>
 
 </body>
-
 </html>
